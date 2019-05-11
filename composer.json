@@ -1,0 +1,20 @@
+{
+    "name": "shisan/usdk",
+    "type": "libary",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ShiSan",
+            "email": "SHISAN@QQ.COM"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "USDK\\Libary\\": "src/USDK/Libary"
+        }
+    }
+}
